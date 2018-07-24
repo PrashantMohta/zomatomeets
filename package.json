@@ -1,0 +1,21 @@
+{
+  "name": "zomatomeets",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "google-map-react": "^1.0.5",
+    "leaflet": "^1.3.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-leaflet": "^2.0.0",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && rmdir /S /Q docs && rename build docs",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

@@ -1,0 +1,84 @@
+html, body {
+  height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+.App {
+  height:100vh;
+  min-height: 100%; 
+}
+.Header{
+  box-sizing: border-box;
+  height:50px;
+  line-height:50px;
+  background-color: #ff5555;
+  color:#FFF;
+  font-size:20px;
+  font-weight:bold;
+  padding:0px 0px 0px 10px;
+  margin:auto;
+  user-select: none;
+}
+.mapcontainer{
+  height:calc(100% - 50px) ;
+  width:100%;
+}
+
+.overlay{
+  position:absolute;
+  right:0px;
+  top:0px;
+  Z-index:99;
+}
+
+.overlay--list{
+  position:absolute;
+  left:0px;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  Z-index:999;
+  display:none;
+background-color:#FFF;
+}
+.overlay__listitem{
+  padding:20px;
+  height:20px;
+  font:20px;
+  line-height:20px;
+  background-color:#EFEFEF;
+}
+.thumb{
+  font-family: 'Source Sans Pro', sans-serif;
+  padding:0px;
+  text-align:center;
+  font-size:13px;
+}
+.thumbimage{
+  margin:10px 0px;
+  display:inline-block;
+  width:150px;
+  height:150px;
+  border-radius:5%;
+}
+
+.btn{
+  height:50px;
+  padding:0px 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:15px;
+  margin:0px 5px;
+  background-color: #DD5555;
+  border:1px solid #DD5555;
+  color:#FFF;
+  border-radius:5px;
+}
+
+.btn:active{
+  height:50px;
+  margin:0px 5px;
+  background-color: #AA5555;
+  border:1px solid #DD5555;
+  color:#FFF;
+  border-radius:5px;
+}
