@@ -2,6 +2,8 @@
   "name": "zomatomeets",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://prashantmohta.github.io/zomatomeets/",
+
   "dependencies": {
     "google-map-react": "^1.0.5",
     "leaflet": "^1.3.1",

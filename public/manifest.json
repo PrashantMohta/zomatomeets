@@ -8,7 +8,6 @@
       "type": "image/x-icon"
     }
   ],
-  "homepage": "https://prashantmohta.github.io/zomatomeets",
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#ff4444",
