@@ -128,7 +128,7 @@ export const reducer=(state=DEFAULT_STATE,action)=>{
         case "CLEAR_MARKERS":
         let newstate = Object.assign({},DEFAULT_STATE);
         newstate.position=state.position;
-        newstate.response=false;
+        newstate.response=true;
         return newstate
 
         case "ADD_MARKER":
